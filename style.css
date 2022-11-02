@@ -1,0 +1,112 @@
+body {
+  background-color:#fff;
+  color:#1B98D4;
+  font-family: 'Roboto', sans-serif;
+  margin:5px;
+  padding:19px;
+  background-image: url(images/GNaliensun3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  opacity: 80%;
+
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo {}
+
+#container {
+  margin: 0 auto;
+  @media screen {
+
+  }
+}
+
+
+.bouton {
+  background-color:#1B98D4;
+  border-radius:5em;
+  color:white;
+  margin:10 auto;
+  flex:flex;
+  text-decoration:none;
+  text-align:center;
+  transition:0,7;
+  padding:20px;
+  width:200px;
+}
+
+.bouton:hover {
+  background-color:#F704FC;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+a {
+  color:#fff;
+  text-decoration:none;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color:#1B98D4;
+  font-family: 'Roboto', sans-serif;
+  font-size:0.9em;
+}
+
+.span {
+  -moz-transition-property: padding-left;
+  -moz-transition-duration: 1s;
+  -moz-transition-timing-function: ease-in;
+  transition-property: padding-left;
+  transition-duration: 1s;
+  -webkit-transition-property: padding-left;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;}
+
+span:hover, span:focus {
+  color: #F704FC;
+  padding-left: 150px;
+}
+.section {
+  background-color: white;
+  border-radius: 2em border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  margin: 25px auto;
+  margin: 5px auto;
+  padding: 0 10 0 10;
+  padding: 36px;
+  width: 42%;
+  border-radius: 6%;
+  margin: 2% auto;
+}
+#nav {
+  padding: 3em;
+margin: 0 auto;
+text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
